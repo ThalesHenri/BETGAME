@@ -2,7 +2,7 @@
 import random
 
 
-class bet:
+class Bet:
     def __init__(self, balance):
         self.balance = balance
         #self.history = history
@@ -18,6 +18,6 @@ class bet:
         return self.a, self.b, self.c
 
 
-a = bet(1000)
+a = Bet(1000)
 b = a.get_numbers()
 print(b)
