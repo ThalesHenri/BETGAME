@@ -48,9 +48,9 @@ class Player:
     def show_balance(self):
         print(f"O seu saldo é de R$ {self.balance}")
 
-player = Player(200, "Thales", 17)
+"""player = Player(200, "Thales", 17)
 player.show_balance()
 player.deposit()
 player.show_balance()
 player.withdraw()
-player.show_balance()
+player.show_balance()"""
